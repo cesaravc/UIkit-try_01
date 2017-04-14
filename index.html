@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="dist/css/uikit.min.css" />
+        <link rel="stylesheet" type="text/css" href="/dist/css/uikit.almost-flat.min.css">
+        <link rel="stylesheet" type="text/css" href="dist/css/components/sticky.almost-flat.min.css">
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="dist/js/uikit.min.js"></script>
+        <script src="dist/js/uikit-icons.min.js"></script>
+        <script type="text/javascript" src="dist/js/components/sticky.min.js"></script>
+       
+
+
+    </head>
+    <body> 
+			<!--<div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="bottom: #offset">-->
+		<div class="uk-card uk-card-default" style="z-index: 980:" uk-sticky-placeholder="bottom: #offset">	
+			    	<nav class="uk-navbar-right uk-navbar-container uk-margin">	    	
+					    <div class="uk-navbar-left">
+					        <a class="uk-navbar-toggle" href="#">
+					            <img style="max-width:125px; margin-top: 6px;" src="dist/img/logo_portal_original_my.png">
+					        </a>
+					        	<a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: table"></a>
+
+					    </div>
+					</nav>
+
+					<ul class="uk-subnav uk-subnav-pill" uk-margin>
+    <li class="uk-active"><a href="#">PRODUTOS</a></li>
+    <li><a href="#">FORNECEDOR</a></li>
+    <li>
+        <a href="#">MAIS <span uk-icon="icon:  triangle-down"></span></a>
+        <div uk-dropdown="mode: click;">
+            <ul class="uk-nav uk-dropdown-nav">
+                <li class="uk-active"><a href="#"></a></li>
+                <li><a href="#">TIPO</a></li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#">Sub-iten-1</a></li>
+                <li><a href="#">Sub-iten-2</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Sub-iten-3</a></li>
+            </ul>
+        </div>
+    </li>
+</ul>
+			</div>
+		<div class="">
+		<h3 align="center">Cadastrar Produtos</h3>
+		<hr class="uk-divider-icon">
+			<div class="uk-section uk-section-secondary">
+    			<div class="uk-container">
+
+        		<div class="uk-grid uk-child-width-1-2@m" uk-grid>
+            		<div>
+                		<form class="uk-form-stacked uk-margin-large">
+                			<div class="uk-margin">
+						        <label class="uk-form-label" for="form-horizontal-text">Nome Do Produto</label>
+							        <div class="uk-form-controls">
+							            <input class="uk-input" id="form-horizontal-text" type="text" placeholder="prencher...">
+							        </div>
+						    </div>
+
+						    <div class="uk-margin">
+						        <label class="uk-form-label" for="form-horizontal-text">Marca</label>
+							        <div class="uk-form-controls">
+							            <input class="uk-input" id="form-horizontal-text" type="text" placeholder="prencher...">
+							        </div>
+						    </div>
+
+						    <div class="uk-margin">
+						        <label class="uk-form-label" for="form-horizontal-text">Modelo</label>
+							        <div class="uk-form-controls">
+							            <input class="uk-input" id="form-horizontal-text" type="text" placeholder="prencher...">
+							        </div>
+						    </div>
+
+						    <div class="uk-margin">
+						        <label class="uk-form-label" for="form-horizontal-text">Preço Por Unidade</label>
+							        <div class="uk-form-controls">
+							            <input class="uk-input" id="form-horizontal-text" type="text" placeholder="exemplo: 1500 ECV">
+							        </div>
+						    </div>
+
+						    <div class="uk-margin">
+						        <label class="uk-form-label" for="form-horizontal-text">Quantidade</label>
+							        <div class="uk-form-controls">
+							            <input class="uk-input" id="form-horizontal-text" type="text" placeholder="exemplo:16">
+							        </div>
+						    </div>
+
+						    <div class="uk-margin">
+						        <label class="uk-form-label" for="form-horizontal-select">Fornecedor</label>
+						        <div class="uk-form-controls">
+						            <select class="uk-select" id="form-horizontal-select">
+						                <option>Fornecedor 01</option>
+						                <option>Fornecedor 02</option>
+						                <option>Fornecedor 03</option>
+						            </select>
+						        </div>
+    						</div>
+
+    						 <div class="uk-margin">
+        
+
+						    	<div class="uk-placeholder uk-text-center">
+						         	<span class="uk-text">Imagem Do Produto</span>
+						    			<div class="uk-margin" uk-margin>
+						        			<div uk-form-custom="target: true">
+						            			<input type="file">
+						            				<input class="uk-input uk-form-width-medium" type="text" placeholder="Seleciona uma imagen" disabled>
+						        			</div>
+						        				<button class="uk-button uk-button-secondary">Submit</button>
+						    			</div>
+                		</form>
+            			</div>
+            
+        		</div>
+
+    		</div>
+		</div>
+
+		</div>
+		<div class="">
+			<p uk-margin> 
+		    <button class="uk-button uk-button-primaryy uk-button-small">GUARDAR</button>
+		    <button class="uk-button uk-button-primaryyy uk-button-small">CANCELAR</button>
+		</p>
+
+		</div>
+		
+
+   <a href="#" uk-totop uk-scroll align="center"> SUBI-CABECA-RIBA </a>
+    </body>
+</html>
